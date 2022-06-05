@@ -1,0 +1,50 @@
+.ourProducts-container {
+    text-align: center;
+}
+
+.ourProducts-heading {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #1C091D;
+    font-weight: bold;
+}
+
+.ourProducts-container img {
+    width: 80%;
+}
+
+.products-types {
+    text-transform: capitalize;
+    font-size: 15px;
+    color: #1C091D;
+    font-weight: bold;
+}
+
+.ourProducts-container p {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #1C091D;
+}
+
+.ourProducts-container hr {
+    background-color: #DE202A;
+    height: 2px;
+    border: none;
+}
+
+.vl {
+    border-left: 2px solid #DE202A;
+    height: 20px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+@media only screen and (max-width: 900px) {
+
+    .ourProducts-heading,
+    .heading-text,
+    .products-types {
+        text-align: center;
+        padding: 10px
+    }
+}

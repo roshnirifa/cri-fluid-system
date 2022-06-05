@@ -1,0 +1,73 @@
+.banner-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.award-img-1 img {
+    width: 450px;
+}
+
+.banner-description {
+    width: 60%;
+}
+
+.heading-text {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: bold;
+
+
+}
+
+.award-img-2 img {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.banner-container li {
+
+    color: #1C091D;
+    margin-left: 20px;
+}
+
+.banner-container p {
+    color: #1C091D;
+}
+
+span {
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 900px) {
+    .banner-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .banner-container p {
+        text-align: center;
+        padding: 20px
+    }
+
+    .award-img-2 {
+        text-align: center;
+
+    }
+
+    .award-img-2 img {
+        width: 80%;
+    }
+
+    .banner-description {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .award-img-1 img {
+        width: 300px;
+    }
+
+}
